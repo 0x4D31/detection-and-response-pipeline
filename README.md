@@ -19,7 +19,7 @@ Main Components of a Detection & Response Pipeline:
 
 ## Detection-as-Code Pipeline
 
-| Tool | Purpose |
+| Tool / Service | Purpose |
 |---|---|
 | GitHub | Detection content development |
 | GitLab | Detection content development |
@@ -34,6 +34,19 @@ Main Components of a Detection & Response Pipeline:
 
 
 ## Data Pipeline
+
+| Tool / Service | Purpose |
+|---|---|
+| [Vector](https://github.com/vectordotdev/vector) | Log collection and transformation |
+| [Tenzir](https://github.com/tenzir/tenzir) | Log collection and transformation |
+| [Fluent Bit](https://github.com/fluent/fluent-bit) | Log collection and transformation |
+| [Logstash](https://github.com/elastic/logstash) | Log collection and transformation |
+| [Kafka](https://kafka.apache.org/) | Stream processing |
+| [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams) | Stream processing |
+| [Google Cloud DataFlow](https://cloud.google.com/dataflow) | Stream and batch processing
+| [Databricks](https://www.databricks.com/) | Stream and batch processing
+| [Apache Spark](https://spark.apache.org/) | Stream and batch processing |
+
 
 ## Detection and Correlation Engine
 
