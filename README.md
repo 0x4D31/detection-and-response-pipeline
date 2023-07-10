@@ -43,12 +43,19 @@ Main Components of a Detection & Response Pipeline:
 | [Logstash](https://github.com/elastic/logstash) | Log collection and transformation |
 | [Kafka](https://kafka.apache.org/) | Stream processing |
 | [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams) | Stream processing |
-| [Google Cloud DataFlow](https://cloud.google.com/dataflow) | Stream and batch processing
-| [Databricks](https://www.databricks.com/) | Stream and batch processing
+| [Google Cloud DataFlow](https://cloud.google.com/dataflow) | Stream and batch processing |
+| [Databricks](https://www.databricks.com/) | Stream and batch processing |
 | [Apache Spark](https://spark.apache.org/) | Stream and batch processing |
-
+| [Apache Flink](https://flink.apache.org/) | Stream and batch processing |
 
 ## Detection and Correlation Engine
+
+| Tool / Service | Note |
+|---|---|
+| [Elasticsearch](https://github.com/elastic/elasticsearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or Elastic $ecurity |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or [OpenSearch Alerting](https://github.com/opensearch-project/alerting) |
+| [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) | Streaming data analysis in real time using Apache Flink |
+| [Matano](https://github.com/matanolabs/matano) | Open source security lake platform for AWS |
 
 ## Response Orchestration
 
