@@ -56,6 +56,8 @@ Main Components of a Detection & Response Pipeline:
 | [OpenSearch](https://github.com/opensearch-project/OpenSearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or [OpenSearch Alerting](https://github.com/opensearch-project/alerting) |
 | [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) | Streaming data analysis in real time using Apache Flink |
 | [Matano](https://github.com/matanolabs/matano) | Open source security lake platform for AWS |
+| [ksqlDB](https://github.com/confluentinc/ksql) | SQL-Based Streaming for Kafka |
+
 
 ## Response Orchestration
 
