@@ -50,7 +50,7 @@ Main Components of a Detection & Response Pipeline:
 
 ## Detection and Correlation Engine
 
-| Tool / Service | Note |
+| Tool / Service | Description |
 |---|---|
 | [Elasticsearch](https://github.com/elastic/elasticsearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or Elastic $ecurity |
 | [OpenSearch](https://github.com/opensearch-project/OpenSearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or [OpenSearch Alerting](https://github.com/opensearch-project/alerting) |
@@ -58,10 +58,21 @@ Main Components of a Detection & Response Pipeline:
 | [Matano](https://github.com/matanolabs/matano) | Open source security lake platform for AWS |
 | [ksqlDB](https://github.com/confluentinc/ksql) | SQL-Based Streaming for Kafka |
 
-
 ## Response Orchestration
 
+| Tool / Service | Description |
+|---|---|
+| [Shuffler](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform |
+| [Tines](https://www.tines.com/) | No-code automation for security workflows |
+
 ## Investigation and Case Management
+
+* [GitHub](https://www.github.com)
+* [Tines Cases](https://www.tines.com/product/cases)
+* [TheHive](https://github.com/TheHive-Project/TheHive)
+
+### Resources:
+- [Using Github For Automated Case Management](https://www.youtube.com/watch?v=PqMI6euJS7s): Material Security's presentation on how its security team is automating case management using GitHub and Tines.
 
 ## Real-world Examples
 
