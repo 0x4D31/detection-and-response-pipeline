@@ -23,8 +23,13 @@ Main Components of a Detection & Response Pipeline:
 |---|---|
 | GitHub | Detection content development |
 | GitLab | Detection content development |
+| Gitea | Detection content development |
+| AWS CodeCommit | Detection content development |
 | GitHub Actions | CI/CD pipeline |
 | GitLab Runner | CI/CD pipeline |
+| Drone | CI/CD pipeline |
+| AWS CodePipeline | CI/CD pipeline |
+| AnvilLogic | Detection content development, CI/CD pipeline, investigation and case management |
 
 ### Resources
 
@@ -47,6 +52,9 @@ Main Components of a Detection & Response Pipeline:
 | [Databricks](https://www.databricks.com/) | Stream and batch processing |
 | [Apache Spark](https://spark.apache.org/) | Stream and batch processing |
 | [Apache Flink](https://flink.apache.org/) | Stream and batch processing |
+| [Apache NiFi](https://nifi.apache.org/) | Stream and batch processing |
+| [Apache Beam](https://beam.apache.org/) | Stream and batch processing |
+| [Faust](https://faust.readthedocs.io/en/latest/) | Stream and batch processing |
 
 ## Detection and Correlation Engine
 
@@ -89,7 +97,7 @@ If you have additional information or insights about any of the examples include
 | 4 | • Kafka <br> • Jupyter notebook <br> • Python <br> • osquery, Santa, and OpenBSM/Audit for MacOS monitoring | _"Alertbox was the first project we built to start cutting down on our triage time. The goal was to move our alert response runbooks into code, and have them execute before we even begin the triage process. <br> Think of Forerunner as the glue between Alertbox and Covenant. When an alert fires, Alertbox calls out a RPC service called Forerunner. This service returns a Jupyter notebook corresponding to the alert. Alertbox then embeds the URL of this Jupyter notebook into the alert ticket. In the background, Forerunner also runs this alert notebook asynchronously."_ <br> ![](img/Dropbox_pipeline.png) | 1. [How Dropbox Security builds tools for threat detection and incident response](https://dropbox.tech/security/how-dropbox-security-builds-better-tools-for-threat-detection-and-incident-response) by Dropbox DART <br> 2. [MacOS monitoring the open source way](https://dropbox.tech/security/macos-monitoring-the-open-source-way) by Michael George (Dropbox) <br> 3. [OLD] [Meet Securitybot: Open Sourcing Automated Security at Scale](https://dropbox.tech/security/meet-securitybot-open-sourcing-automated-security-at-scale) by Alex Bertsch (Dropbox) and [Distributed Security Alerting](https://slack.engineering/distributed-security-alerting/) by Ryan Huber (Slack) |
 | 5 | • [StreamAlert](https://github.com/airbnb/streamalert)<br>• [BinaryAlert](https://github.com/airbnb/binaryalert)  | - _"StreamAlert is a serverless, real-time data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using data sources and alerting logic you define. Computer security teams use StreamAlert to scan terabytes of log data every day for incident detection and response."_<br>- _"BinaryAlert is an open-source serverless AWS pipeline where any file uploaded to an S3 bucket is immediately scanned with a configurable set of YARA rules. An alert will fire as soon as any match is found, giving an incident response team the ability to quickly contain the threat before it spreads."_ | 1. [StreamAlert: Real-time Data Analysis and Alerting](https://medium.com/airbnb-engineering/streamalert-real-time-data-analysis-and-alerting-e8619e3e5043) by Airbnb Eng <br> 2. [BinaryAlert: Real-time Serverless Malware Detection](https://medium.com/airbnb-engineering/binaryalert-real-time-serverless-malware-detection-ca44370c1b90) by Austin Byers (Airbnb)
 | 6 | • ELK stack <br> • Kafka <br> • [KSQL](https://github.com/confluentinc/ksql) <br> • [ES-Hadoop](https://github.com/elastic/elasticsearch-hadoop) <br> • ElastAlert[0] <br> • Apache Spark <br> • Jupyter notebook <br> • GraphFrames  | _"The Hunting ELK or simply the HELK is one of the first open source hunt platforms with advanced analytics capabilities such as SQL declarative language, graphing, structured streaming, and even machine learning via Jupyter notebooks and Apache Spark over an ELK stack. This project was developed primarily for research, but due to its flexible design and core components, it can be deployed in larger environments with the right configurations and scalable infrastructure."_ <br> ![](img/HELK_design.png) | [The Hunting ELK](https://github.com/Cyb3rWard0g/HELK) project by Roberto Rodriguez |
-
+| 7 | • AWS Kinesis Firehose <br> • AWS Kinesis Data Analytics Application <br> • AWS Lambda <br> • AWS S3 <br> • AWS Athena <br> • AWS Simple Notification Services  | _"In this example, various AWS serverless application services are used together to create a detection pipeline that is capable of near-realtime detection. The pipeline requires no administrative overhead of servers or container infrastructure, enabling a detection and response team to focus on threat detection capabilities."_ <br> ![](img/AWSServerlessArchitecture.png) | [Building a Serverless Detection Platform in AWS Pt. I: Endpoint Detection](https://infosecb.medium.com/building-a-serverless-detection-platform-in-aws-pt-i-endpoint-detection-1a0e34d9c28c) by Brendan Chamberlain |
 
 0. ElastAlert is no longer maintained. You can use [ElastAlert2](https://github.com/jertel/elastalert2) instead.
 
