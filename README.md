@@ -59,6 +59,8 @@ Main Components of a Detection & Response Pipeline:
 
 ## Detection and Correlation Engine
 
+In addition to the stream and batch processing tools mentioned in the [data pipeline](#data-pipeline) section, the following tools can be used for data analysis and detection.
+
 | Tool / Service | Description |
 |---|---|
 | [Elasticsearch](https://github.com/elastic/elasticsearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or Elastic $ecurity |
@@ -66,6 +68,7 @@ Main Components of a Detection & Response Pipeline:
 | [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) | Streaming data analysis in real time using Apache Flink |
 | [Matano](https://github.com/matanolabs/matano) | Open source security lake platform for AWS |
 | [ksqlDB](https://github.com/confluentinc/ksql) | SQL-Based Streaming for Kafka |
+| [StreamAlert](https://github.com/airbnb/streamalert) | Real-time data analysis and alerting framework |
 
 ## Response Orchestration
 
