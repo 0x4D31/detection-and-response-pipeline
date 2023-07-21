@@ -79,6 +79,7 @@ Main Components of a Detection & Response Pipeline:
 ## Investigation and Case Management
 
 * [GitHub](https://www.github.com)
+* [DFIR IRIS](https://dfir-iris.org): Open-Source Collaborative Incident Response Platform
 * [Torq Case Management](https://torq.io/blog/hyperautomation-case-management/)
 * [Tines Cases](https://www.tines.com/product/cases)
 * [TheHive](https://github.com/TheHive-Project/TheHive)
