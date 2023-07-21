@@ -10,7 +10,7 @@ Main Components of a Detection & Response Pipeline:
   0. 📦 [Detection-as-Code Pipeline](#detection-as-code-pipeline)
   1. 🪵 [Data Pipeline](#data-pipeline)
   2. ⚠️ [Detection and Correlation Engine](#detection-and-correlation-engine)
-  3. ⚙️ [Response Orchestration](#response-orchestration)
+  3. ⚙️ [Response Orchestration and Automation](#response-orchestration-and-automation)
   4. 🔍 [Investigation and Case Management](#investigation-and-case-management)
 
 💡 [Real-world Examples](#real-world-examples)
@@ -71,7 +71,7 @@ In addition to the stream and batch processing tools mentioned in the [data pipe
 | [ksqlDB](https://github.com/confluentinc/ksql) | SQL-Based Streaming for Kafka |
 | [StreamAlert](https://github.com/airbnb/streamalert) | Real-time data analysis and alerting framework |
 
-## Response Orchestration
+## Response Orchestration and Automation
 
 | Tool / Service | Description |
 |---|---|
