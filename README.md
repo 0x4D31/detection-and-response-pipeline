@@ -80,9 +80,10 @@ Main Components of a Detection & Response Pipeline:
 
 * [GitHub](https://www.github.com)
 * [DFIR IRIS](https://dfir-iris.org): Open-Source Collaborative Incident Response Platform
+* [TheHive](https://github.com/TheHive-Project/TheHive): Open Source and Free Security Incident Response Platform
 * [Torq Case Management](https://torq.io/blog/hyperautomation-case-management/)
 * [Tines Cases](https://www.tines.com/product/cases)
-* [TheHive](https://github.com/TheHive-Project/TheHive)
+
 
 ### Resources:
 - [Using Github For Automated Case Management](https://www.youtube.com/watch?v=PqMI6euJS7s): Material Security's presentation on how its security team is automating case management using GitHub and Tines.
