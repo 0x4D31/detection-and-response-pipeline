@@ -45,6 +45,7 @@ Main Components of a Detection & Response Pipeline:
 | [Vector](https://github.com/vectordotdev/vector) | Log collection and transformation |
 | [Tenzir](https://github.com/tenzir/tenzir) | Log collection and transformation |
 | [Fluent Bit](https://github.com/fluent/fluent-bit) | Log collection and transformation |
+| [Cribl Stream](https://cribl.io/) | Log collection and transformation |
 | [Logstash](https://github.com/elastic/logstash) | Log collection and transformation |
 | [Kafka](https://kafka.apache.org/) | Stream processing |
 | [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams) | Stream processing |
