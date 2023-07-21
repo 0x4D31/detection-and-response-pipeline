@@ -71,11 +71,15 @@ Main Components of a Detection & Response Pipeline:
 | Tool / Service | Description |
 |---|---|
 | [Shuffler](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform |
+| [Torq](https://www.torq.io/) | No-code hyperautomation for security workflows |
 | [Tines](https://www.tines.com/) | No-code automation for security workflows |
+
+
 
 ## Investigation and Case Management
 
 * [GitHub](https://www.github.com)
+* [Torq Case Management](https://torq.io/blog/hyperautomation-case-management/)
 * [Tines Cases](https://www.tines.com/product/cases)
 * [TheHive](https://github.com/TheHive-Project/TheHive)
 
