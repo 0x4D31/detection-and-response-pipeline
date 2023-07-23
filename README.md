@@ -42,6 +42,7 @@ Main Components of a Detection & Response Pipeline:
 
 | Tool / Service | Purpose |
 |---|---|
+| [Tarsal](https://tarsal.co) | Log collection and transformation |
 | [Vector](https://github.com/vectordotdev/vector) | Log collection and transformation |
 | [Tenzir](https://github.com/tenzir/tenzir) | Log collection and transformation |
 | [Fluent Bit](https://github.com/fluent/fluent-bit) | Log collection and transformation |
