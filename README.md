@@ -29,7 +29,6 @@ Main Components of a Detection & Response Pipeline:
 | GitLab Runner | CI/CD pipeline |
 | Drone | CI/CD pipeline |
 | AWS CodePipeline | CI/CD pipeline |
-| AnviLogic | Detection content development, CI/CD pipeline, investigation and case management |
 
 ### Resources
 
