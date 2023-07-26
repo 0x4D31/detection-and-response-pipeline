@@ -40,24 +40,25 @@ Main Components of a Detection & Response Pipeline:
 
 ## Data Pipeline
 
-| Tool / Service | Purpose |
-|---|---|
-| [Tarsal](https://tarsal.co) | Log collection and transformation |
-| [Vector](https://github.com/vectordotdev/vector) | Log collection and transformation |
-| [Tenzir](https://github.com/tenzir/tenzir) | Log collection and transformation |
-| [Fluent Bit](https://github.com/fluent/fluent-bit) | Log collection and transformation |
-| [Cribl Stream](https://cribl.io/) | Log collection and transformation |
-| [Airbyte](https://github.com/airbytehq/airbyte) | Log collection and transformation |
-| [Logstash](https://github.com/elastic/logstash) | Log collection and transformation |
-| [Kafka](https://kafka.apache.org/) | Stream processing |
-| [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams) | Stream processing |
-| [Google Cloud DataFlow](https://cloud.google.com/dataflow) | Stream and batch processing |
-| [Databricks](https://www.databricks.com/) | Stream and batch processing |
-| [Apache Spark](https://spark.apache.org/) | Stream and batch processing |
-| [Apache Flink](https://flink.apache.org/) | Stream and batch processing |
-| [Apache NiFi](https://nifi.apache.org/) | Stream and batch processing |
-| [Apache Beam](https://beam.apache.org/) | Stream and batch processing |
-| [Faust](https://faust.readthedocs.io/en/latest/) | Stream and batch processing |
+| Tool / Service | Purpose | Deployment |
+|---|---|---|
+| [Substation](https://github.com/brexhq/substation) | Data movement and transformation | Self-hosted (Open Source) |
+| [Vector](https://github.com/vectordotdev/vector) | Data movement and transformation | Self-hosted (Open Source) | 
+| [Tenzir](https://github.com/tenzir/tenzir) | Data movement and transformation | Self-hosted (Open Source) |
+| [Fluent Bit](https://github.com/fluent/fluent-bit) | Data movement and transformation | Self-hosted (Open Source) |
+| [Logstash](https://github.com/elastic/logstash) | Data movement and transformation | Self-hosted (Open Source) |
+| [Airbyte](https://github.com/airbytehq/airbyte) | Data movement and transformation | Self-hosted (Open Source) and Cloud |
+| [Cribl Stream](https://cribl.io/) | Data movement and transformation | Self-hosted (Free), Hybrid and Cloud |
+| [Tarsal](https://tarsal.co) | Data movement and transformation | Cloud |
+| [Kafka](https://kafka.apache.org/) | Stream processing | Self-hosted (Open source) and Cloud ([Confluent](https://www.confluent.io/)) |
+| [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams) | Stream processing | Cloud |
+| [Apache Spark](https://spark.apache.org/) | Stream and batch processing | Self-hosted (Open source) |
+| [Databricks](https://www.databricks.com/) | Stream and batch processing | Cloud |
+| [Google Cloud DataFlow](https://cloud.google.com/dataflow) | Stream and batch processing | Cloud |
+| [Apache Flink](https://flink.apache.org/) | Stream and batch processing | Self-hosted (Open source) |
+| [Apache NiFi](https://nifi.apache.org/) | Stream and batch processing | Self-hosted (Open source) |
+| [Apache Beam](https://beam.apache.org/) | Stream and batch processing | Open source; Self-hosted or cloud-based runner |
+| [Faust](https://faust.readthedocs.io/en/latest/) | Stream and batch processing | Self-hosted (Open source) |
 
 ## Detection and Correlation Engine
 
