@@ -84,11 +84,14 @@ In addition to the stream and batch processing tools mentioned in the [data pipe
 
 ## Investigation and Case Management
 
-* [GitHub](https://www.github.com)
-* [DFIR IRIS](https://dfir-iris.org): Open-Source Collaborative Incident Response Platform
-* [TheHive](https://github.com/TheHive-Project/TheHive): Open Source and Free Security Incident Response Platform
-* [Torq Case Management](https://torq.io/blog/hyperautomation-case-management/)
-* [Tines Cases](https://www.tines.com/product/cases)
+| Tool / Service | Description | Deployment |
+|---|---|---|
+| [DFIR IRIS](https://dfir-iris.org) | Open-Source Collaborative Incident Response Platform | Self-hosted (Open source) |
+| [TheHive](https://github.com/TheHive-Project/TheHive) | Open Source and Free Security Incident Response Platform | Self-hosted (Open source) |
+| [GitHub](https://www.github.com) | GitHub issues can be used for case management. Check out the video in the Resources section. | Cloud |
+| [Jira Service Management](https://www.atlassian.com/software/jira/service-management/features/itsm#incident-management) | IT service management platform with incident management features | Cloud |
+| [Tines Cases](https://www.tines.com/product/cases) | | Cloud |
+| [Torq Case Management](https://torq.io/blog/hyperautomation-case-management/) | | Cloud |
 
 
 ### Resources:
