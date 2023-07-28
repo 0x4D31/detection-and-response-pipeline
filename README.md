@@ -35,6 +35,7 @@ Main Components of a Detection & Response Pipeline:
 - [Automating Detection-as-Code](https://www.tines.com/blog/automating-detection-as-code): An example reference that uses GitHub for detection content development, GitHub Actions for CI/CD, Elastic as SIEM, GitHub Issues for alert management, and Tines for alert and response handling.
 - [Practical Detection-as-Code](https://www.infosecb.com/threat/detection/2021/11/21/detection-as-code.html): An example Detection-as-Code pipeline implementation using Sigma rules, GitLab CI/CD, and Splunk.
 - CI/CD Detection Engineering ([part 1](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html), [part 2](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html), [part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html), [part 4](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-dockerizing-for-scale-part-4.html)): An example CI/CD detection engineering workflow in a Splunk environment.
+- From soup to nuts: Building a Detection-as-Code pipeline ([Part 1](https://medium.com/threatpunter/from-soup-to-nuts-building-a-detection-as-code-pipeline-28945015fc38), [Part 2](https://medium.com/threatpunter/from-soup-to-nuts-building-a-detection-as-code-pipeline-59b96c875ca1))
 
 
 ## Data Pipeline
