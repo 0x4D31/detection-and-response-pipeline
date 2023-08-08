@@ -75,11 +75,11 @@ In addition to the stream and batch processing tools mentioned in the [data pipe
 
 ## Response Orchestration and Automation
 
-| Tool / Service | Description |
-|---|---|
-| [Shuffler](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform |
-| [Torq](https://www.torq.io/) | No-code hyperautomation for security workflows |
-| [Tines](https://www.tines.com/) | No-code automation for security workflows |
+| Tool / Service | Description | Deployment |
+|---|---|---|
+| [Shuffler](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform | Self-hosted (Open source) and Cloud |
+| [Tines](https://www.tines.com/) | No-code automation for security workflows | Self-hosted ($) and Cloud |
+| [Torq](https://www.torq.io/) | No-code hyperautomation for security workflows | Cloud |
 
 
 
