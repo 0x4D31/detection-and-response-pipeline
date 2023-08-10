@@ -78,7 +78,7 @@ In addition to the stream and batch processing tools mentioned in the [data pipe
 | Tool / Service | Description | Deployment |
 |---|---|---|
 | [n8n](https://github.com/n8n-io/n8n) | A free and source-available workflow automation tool | Self-hosted (Source available) and Cloud |
-| [Shuffler](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform | Self-hosted (Open source) and Cloud |
+| [Shuffle](https://github.com/Shuffle/Shuffle) | A general purpose security automation platform | Self-hosted (Open source) and Cloud |
 | [Tines](https://www.tines.com/) | No-code automation for security workflows | Self-hosted ($) and Cloud |
 | [Torq](https://www.torq.io/) | No-code hyperautomation for security workflows | Cloud |
 
