@@ -122,6 +122,8 @@ If you have additional information or insights about any of the examples include
 
 - [Awesome Threat Detection and Hunting](https://github.com/0x4D31/awesome-threat-detection): A curated list of awesome threat detection and hunting resources.
 - [Awesome Detection Engineering](https://github.com/infosecB/awesome-detection-engineering): A list of useful Detection Engineering-related resources.
+- [Awesome Data Engineering](https://github.com/igorbarinov/awesome-data-engineering): A curated list of data engineering tools.
+- [Awesome Streaming](https://github.com/manuzhang/awesome-streaming): A curated list of stream processing frameworks, applications and resources.
 
 ## License
 
