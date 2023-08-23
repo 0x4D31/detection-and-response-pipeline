@@ -67,7 +67,7 @@ In addition to the stream and batch processing tools mentioned in the [data pipe
 | Tool / Service | Description |
 |---|---|
 | [Elasticsearch](https://github.com/elastic/elasticsearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or Elastic $ecurity |
-| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or [OpenSearch Alerting](https://github.com/opensearch-project/alerting) |
+| [OpenSearch](https://github.com/opensearch-project/OpenSearch) | with [ElastAlert2](https://github.com/jertel/elastalert2) or [OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics) |
 | [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) | Streaming data analysis in real time using Apache Flink |
 | [Matano](https://github.com/matanolabs/matano) | Open source security lake platform for AWS |
 | [ksqlDB](https://github.com/confluentinc/ksql) | SQL-Based Streaming for Kafka |
