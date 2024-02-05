@@ -36,7 +36,7 @@ Main Components of a Detection & Response Pipeline:
 - [Practical Detection-as-Code](https://www.infosecb.com/threat/detection/2021/11/21/detection-as-code.html): An example Detection-as-Code pipeline implementation using Sigma rules, GitLab CI/CD, and Splunk.
 - CI/CD Detection Engineering ([part 1](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-security-content-part-1.html), [part 2](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-splunk-s-attack-range-part-2.html), [part 3](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-failing-part-3.html), [part 4](https://www.splunk.com/en_us/blog/security/ci-cd-detection-engineering-dockerizing-for-scale-part-4.html)): An example CI/CD detection engineering workflow in a Splunk environment.
 - From soup to nuts: Building a Detection-as-Code pipeline ([Part 1](https://medium.com/threatpunter/from-soup-to-nuts-building-a-detection-as-code-pipeline-28945015fc38), [Part 2](https://medium.com/threatpunter/from-soup-to-nuts-building-a-detection-as-code-pipeline-59b96c875ca1))
-- Getting Started with Detection-as-Code and Chronicle Security Operations ([Part 1](https://www.googlecloudcommunity.com/gc/Community-Blog/Getting-Started-with-Detection-as-Code-and-Chronicle-Security/ba-p/702154))
+- Getting Started with Detection-as-Code and Chronicle Security Operations ([Part 1](https://www.googlecloudcommunity.com/gc/Community-Blog/Getting-Started-with-Detection-as-Code-and-Chronicle-Security/ba-p/702154), [Part 2](https://www.googlecloudcommunity.com/gc/Community-Blog/Getting-Started-with-Detection-as-Code-and-Chronicle-Security/ba-p/702956))
 
 
 ## Data Pipeline
